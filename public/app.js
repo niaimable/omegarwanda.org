@@ -18601,15 +18601,133 @@
                   ),
                 ),
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Link, {
-                to: "/about",
-                className: "navbar-cta",
-                children: "Plan a Visit",
+              /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
+                className: "navbar-socials",
+                children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+                    href: "https://instagram.com",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    "aria-label": "Instagram",
+                    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(
+                      "svg",
+                      {
+                        width: "18",
+                        height: "18",
+                        viewBox: "0 0 24 24",
+                        fill: "none",
+                        stroke: "currentColor",
+                        strokeWidth: "2",
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round",
+                        children: [
+                          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("rect", {
+                            x: "2",
+                            y: "2",
+                            width: "20",
+                            height: "20",
+                            rx: "5",
+                          }),
+                          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+                            "circle",
+                            { cx: "12", cy: "12", r: "4" },
+                          ),
+                          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+                            "circle",
+                            {
+                              cx: "17.5",
+                              cy: "6.5",
+                              r: "1",
+                              fill: "currentColor",
+                              stroke: "none",
+                            },
+                          ),
+                        ],
+                      },
+                    ),
+                  }),
+                  /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+                    href: "https://tiktok.com",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    "aria-label": "TikTok",
+                    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+                      "svg",
+                      {
+                        width: "18",
+                        height: "18",
+                        viewBox: "0 0 24 24",
+                        fill: "currentColor",
+                        children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+                          "path",
+                          {
+                            d: "M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z",
+                          },
+                        ),
+                      },
+                    ),
+                  }),
+                  /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+                    href: "https://youtube.com",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    "aria-label": "YouTube",
+                    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(
+                      "svg",
+                      {
+                        width: "18",
+                        height: "18",
+                        viewBox: "0 0 24 24",
+                        fill: "currentColor",
+                        children: [
+                          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("path", {
+                            d: "M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z",
+                          }),
+                          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+                            "polygon",
+                            {
+                              points: "9.75 15.02 15.5 12 9.75 8.98 9.75 15.02",
+                              fill: "#fff",
+                            },
+                          ),
+                        ],
+                      },
+                    ),
+                  }),
+                  /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+                    href: "https://twitter.com",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    "aria-label": "Twitter/X",
+                    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+                      "svg",
+                      {
+                        width: "18",
+                        height: "18",
+                        viewBox: "0 0 24 24",
+                        fill: "currentColor",
+                        children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+                          "path",
+                          {
+                            d: "M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z",
+                          },
+                        ),
+                      },
+                    ),
+                  }),
+                ],
               }),
               /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
                 className: "navbar-hamburger",
                 onClick: () => setMenuOpen((p) => !p),
                 "aria-label": "Menu",
+                style: {
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  minWidth: 40,
+                  minHeight: 40,
+                },
                 children: menuOpen ? "" : "",
               }),
             ],
@@ -19044,7 +19162,7 @@
             children: [
               /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
                 className: "hero-bg",
-                style: { backgroundImage: "url('/roc-photo3.jpg')" },
+                style: { backgroundImage: "url('/hero.jpg')" },
               }),
               /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
                 className: "hero-content",
@@ -19055,7 +19173,7 @@
                       /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", {
                         className: "hero-pill-dot",
                       }),
-                      "Live Sundays \xB7 08:00 AM & 10:30 AM",
+                      "Live Sundays \xB7 9:00 AM & 11:00 AM",
                     ],
                   }),
                   /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("h1", {
@@ -19186,21 +19304,21 @@
                   className: "feature-grid",
                   children: [
                     {
-                      img: "/roc-photo1.jpg",
+                      img: "/getToKnowUs.jpg",
                       tag: "Our Church",
                       title: "Get To Know Us",
                       to: "/about",
                       pos: "center",
                     },
                     {
-                      img: "/roc-photo2.jpg",
+                      img: "/welcome.jpg",
                       tag: "Gatherings",
                       title: "Upcoming Events",
                       to: "/events",
-                      pos: "center 20%",
+                      pos: "center",
                     },
                     {
-                      img: "/roc-photo3.jpg",
+                      img: "/welcome2.jpg",
                       tag: "New Here?",
                       title: "Your Next Steps",
                       to: "/about",
@@ -19253,199 +19371,288 @@
               ],
             }),
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("section", {
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("section", {
             className: "section",
-            style: { background: "var(--off)" },
-            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
-              className: "container",
-              children: [
-                /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
-                  style: {
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "flex-end",
-                    flexWrap: "wrap",
-                    gap: "1rem",
-                  },
+            style: {
+              background: "var(--off)",
+              position: "relative",
+              overflow: "hidden",
+            },
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
+                style: {
+                  position: "absolute",
+                  inset: 0,
+                  backgroundImage: "url('/worship.jpg')",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  opacity: 0.06,
+                  zIndex: 0,
+                },
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
+                style: {
+                  position: "relative",
+                  zIndex: 1,
+                  maxWidth: "1100px",
+                  margin: "0 auto",
+                },
+                children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+                  className: "container",
                   children: [
                     /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+                      style: {
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "flex-end",
+                        flexWrap: "wrap",
+                        gap: "1rem",
+                      },
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
-                          className: "section-tag",
-                          children: "What's On",
-                        }),
-                        /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("h2", {
-                          className: "section-h",
+                        /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
                           children: [
-                            "Upcoming ",
-                            /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("em", {
-                              children: "Events",
-                            }),
+                            /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+                              "div",
+                              {
+                                className: "section-tag",
+                                children: "What's On",
+                              },
+                            ),
+                            /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
+                              "h2",
+                              {
+                                className: "section-h",
+                                children: [
+                                  "Our Recurring ",
+                                  /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+                                    "em",
+                                    { children: "Events" },
+                                  ),
+                                ],
+                              },
+                            ),
                           ],
+                        }),
+                        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+                          className: "btn btn-outline",
+                          onClick: () => navigate("/events"),
+                          children: "View All Events \u2192",
                         }),
                       ],
                     }),
-                    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
-                      className: "btn btn-outline",
-                      onClick: () => navigate("/events"),
-                      children: "View All Events \u2192",
-                    }),
-                  ],
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
-                  className: "event-row",
-                  children: [
-                    {
-                      bg: "var(--bur-dk)",
-                      cat: "Weekly",
-                      name: "Sunday Worship Service",
-                      meta: " Every Sunday \xB7 9:00 & 11:00 AM",
-                      thumb: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
-                        "div",
+                    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
+                      className: "event-row",
+                      style: { marginTop: "2.5rem" },
+                      children: [
                         {
-                          style: {
-                            fontFamily: "Inter",
-                            fontSize: "2rem",
-                            fontWeight: 800,
-                            color: "#fff",
-                            lineHeight: 1,
-                            letterSpacing: "-0.02em",
-                          },
-                          children: [
-                            "SUNDAY",
-                            /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
-                              "div",
-                              {
-                                style: {
-                                  fontSize: ".7rem",
-                                  fontWeight: 500,
-                                  letterSpacing: ".1em",
-                                  color: "rgba(255,255,255,.5)",
-                                  marginTop: ".3rem",
-                                  textTransform: "uppercase",
-                                },
-                                children: "Worship Service",
-                              },
-                            ),
-                          ],
+                          bg: "var(--bur-dk)",
+                          img: "/welcome.jpg",
+                          cat: "Every Sunday",
+                          name: "Sunday Worship Service",
+                          meta: "08:00 \u2013 09:45 (Kinyarwanda)  \xB7  10:30 \u2013 12:30 (English)",
+                          thumb: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
+                            "div",
+                            {
+                              style: { textAlign: "center" },
+                              children: [
+                                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+                                  "div",
+                                  {
+                                    style: {
+                                      fontFamily: "Inter",
+                                      fontSize: "2rem",
+                                      fontWeight: 800,
+                                      color: "#fff",
+                                      lineHeight: 1,
+                                      letterSpacing: "-0.02em",
+                                    },
+                                    children: "SUNDAY",
+                                  },
+                                ),
+                                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+                                  "div",
+                                  {
+                                    style: {
+                                      fontSize: ".7rem",
+                                      fontWeight: 500,
+                                      letterSpacing: ".1em",
+                                      color: "rgba(255,255,255,.5)",
+                                      marginTop: ".3rem",
+                                      textTransform: "uppercase",
+                                    },
+                                    children: "Worship Service",
+                                  },
+                                ),
+                              ],
+                            },
+                          ),
                         },
-                      ),
-                    },
-                    {
-                      bg: "var(--grn-dk)",
-                      cat: "Weekly",
-                      name: "Midweek Service",
-                      meta: " Every Wednesday \xB7 6:00 PM",
-                      thumb: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
-                        "div",
                         {
-                          style: {
-                            fontFamily: "Inter",
-                            fontSize: "2rem",
-                            fontWeight: 800,
-                            color: "#fff",
-                            lineHeight: 1,
-                            letterSpacing: "-0.02em",
-                          },
-                          children: [
-                            "MIDWEEK",
-                            /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
-                              "div",
-                              {
-                                style: {
-                                  fontSize: ".7rem",
-                                  fontWeight: 500,
-                                  letterSpacing: ".1em",
-                                  color: "rgba(255,255,255,.5)",
-                                  marginTop: ".3rem",
-                                  textTransform: "uppercase",
-                                },
-                                children: "Prayer & Worship",
-                              },
-                            ),
-                          ],
+                          bg: "var(--grn-dk)",
+                          img: "/worship.jpg",
+                          cat: "Every Wednesday",
+                          name: "Home Bible Fellowship & Midweek",
+                          meta: "Home Bible Fellowship (3 Wednesdays)  \xB7  Midweek Service (1 Wednesday)",
+                          thumb: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
+                            "div",
+                            {
+                              style: { textAlign: "center" },
+                              children: [
+                                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+                                  "div",
+                                  {
+                                    style: {
+                                      fontFamily: "Inter",
+                                      fontSize: "2rem",
+                                      fontWeight: 800,
+                                      color: "#fff",
+                                      lineHeight: 1,
+                                      letterSpacing: "-0.02em",
+                                    },
+                                    children: "WEDNESDAY",
+                                  },
+                                ),
+                                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+                                  "div",
+                                  {
+                                    style: {
+                                      fontSize: ".7rem",
+                                      fontWeight: 500,
+                                      letterSpacing: ".1em",
+                                      color: "rgba(255,255,255,.5)",
+                                      marginTop: ".3rem",
+                                      textTransform: "uppercase",
+                                    },
+                                    children: "Bible Fellowship & Midweek",
+                                  },
+                                ),
+                              ],
+                            },
+                          ),
                         },
-                      ),
-                    },
-                    {
-                      bg: "#1a1a2e",
-                      cat: "Daily",
-                      name: "Early Morning Prayer",
-                      meta: " Mon\u2013Fri \xB7 6:00 AM",
-                      thumb: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
-                        "div",
                         {
-                          style: {
-                            fontFamily: "Inter",
-                            fontSize: "1.8rem",
-                            fontWeight: 800,
-                            color: "#fff",
-                            lineHeight: 1,
-                            letterSpacing: "-0.02em",
-                          },
-                          children: [
-                            "MORNING",
-                            /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
-                              "div",
-                              {
-                                style: {
-                                  background:
-                                    "linear-gradient(90deg,#9e2a4a,#c97a90)",
-                                  WebkitBackgroundClip: "text",
-                                  WebkitTextFillColor: "transparent",
-                                },
-                                children: "PRAYER",
-                              },
-                            ),
-                          ],
+                          bg: "#1a1a2e",
+                          img: "/save_next_gen.jpg",
+                          cat: "Last Friday of the Month",
+                          name: "Evening of Worship & Healing",
+                          meta: "A powerful night of worship, prayer, and healing",
+                          thumb: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
+                            "div",
+                            {
+                              style: { textAlign: "center" },
+                              children: [
+                                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+                                  "div",
+                                  {
+                                    style: {
+                                      fontFamily: "Inter",
+                                      fontSize: "1.6rem",
+                                      fontWeight: 800,
+                                      color: "#fff",
+                                      lineHeight: 1.1,
+                                      letterSpacing: "-0.02em",
+                                    },
+                                    children: "EVENING OF",
+                                  },
+                                ),
+                                /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
+                                  "div",
+                                  {
+                                    style: {
+                                      fontFamily: "Inter",
+                                      fontSize: "1.6rem",
+                                      fontWeight: 800,
+                                      lineHeight: 1.1,
+                                      letterSpacing: "-0.02em",
+                                      background:
+                                        "linear-gradient(90deg,#9e2a4a,#c97a90)",
+                                      WebkitBackgroundClip: "text",
+                                      WebkitTextFillColor: "transparent",
+                                    },
+                                    children: [
+                                      "WORSHIP &",
+                                      /* @__PURE__ */ (0,
+                                      import_jsx_runtime4.jsx)("br", {}),
+                                      "HEALING",
+                                    ],
+                                  },
+                                ),
+                              ],
+                            },
+                          ),
                         },
-                      ),
-                    },
-                  ].map((e) =>
-                    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
-                      "div",
-                      {
-                        className: "event-chip",
-                        children: [
-                          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
-                            className: "event-chip-thumb",
-                            style: { background: e.bg },
-                            children: e.thumb,
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
-                            className: "event-chip-body",
+                      ].map((e) =>
+                        /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
+                          "div",
+                          {
+                            className: "event-chip",
                             children: [
-                              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+                              /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
                                 "div",
                                 {
-                                  className: "event-chip-cat",
-                                  children: e.cat,
+                                  className: "event-chip-thumb",
+                                  style: {
+                                    background: e.bg,
+                                    height: 180,
+                                    position: "relative",
+                                    overflow: "hidden",
+                                  },
+                                  children: [
+                                    /* @__PURE__ */ (0,
+                                    import_jsx_runtime4.jsx)("div", {
+                                      style: {
+                                        position: "absolute",
+                                        inset: 0,
+                                        backgroundImage: `url(${e.img})`,
+                                        backgroundSize: "cover",
+                                        backgroundPosition: "center",
+                                        opacity: 0.15,
+                                      },
+                                    }),
+                                    /* @__PURE__ */ (0,
+                                    import_jsx_runtime4.jsx)("div", {
+                                      style: {
+                                        position: "relative",
+                                        zIndex: 1,
+                                      },
+                                      children: e.thumb,
+                                    }),
+                                  ],
                                 },
                               ),
-                              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+                              /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
                                 "div",
                                 {
-                                  className: "event-chip-name",
-                                  children: e.name,
-                                },
-                              ),
-                              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
-                                "div",
-                                {
-                                  className: "event-chip-meta",
-                                  children: e.meta,
+                                  className: "event-chip-body",
+                                  children: [
+                                    /* @__PURE__ */ (0,
+                                    import_jsx_runtime4.jsx)("div", {
+                                      className: "event-chip-cat",
+                                      children: e.cat,
+                                    }),
+                                    /* @__PURE__ */ (0,
+                                    import_jsx_runtime4.jsx)("div", {
+                                      className: "event-chip-name",
+                                      children: e.name,
+                                    }),
+                                    /* @__PURE__ */ (0,
+                                    import_jsx_runtime4.jsx)("div", {
+                                      className: "event-chip-meta",
+                                      children: e.meta,
+                                    }),
+                                  ],
                                 },
                               ),
                             ],
-                          }),
-                        ],
-                      },
-                      e.name,
-                    ),
-                  ),
+                          },
+                          e.name,
+                        ),
+                      ),
+                    }),
+                  ],
                 }),
-              ],
-            }),
+              }),
+            ],
           }),
           /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("section", {
             style: { background: "#fff", padding: "6rem 4rem" },
@@ -19487,6 +19694,7 @@
                   ],
                 }),
                 /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+                  className: "sermon-home-grid",
                   style: {
                     display: "grid",
                     gridTemplateColumns: "1.4fr 1fr",
@@ -19504,7 +19712,7 @@
                       },
                       children: [
                         /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("img", {
-                          src: "/roc-photo4.jpg",
+                          src: "/last_message.jpg",
                           alt: "Latest Sermon",
                           style: {
                             width: "100%",
@@ -19607,14 +19815,14 @@
                       },
                       children: [
                         {
-                          img: "/roc-photo2.jpg",
+                          img: "/power_of_abiding.jpg",
                           pos: "center 20%",
                           title: "The Power of Abiding",
                           date: "Mar 30, 2025",
                           series: "Abiding in the Word",
                         },
                         {
-                          img: "/roc-photo3.jpg",
+                          img: "/worship.jpg",
                           pos: "center",
                           title: "The House of Prayer",
                           date: "Mar 23, 2025",
@@ -19854,7 +20062,7 @@
             children: [
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", {
                 className: "page-hero-bg",
-                style: { backgroundImage: "url('/roc-photo3.jpg')" },
+                style: { backgroundImage: "url('/welcome.jpg')" },
               }),
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", {
                 className: "page-hero-overlay",
@@ -19891,7 +20099,7 @@
                     className: "about-img-wrap",
                     children: [
                       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("img", {
-                        src: "/roc-photo1.jpg",
+                        src: "/getToKnowUs.jpg",
                         alt: "ROC Church",
                       }),
                       /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", {
@@ -20275,7 +20483,7 @@
   var import_jsx_runtime6 = __toESM(require_jsx_runtime());
   var mins = [
     {
-      img: "/roc-photo3.jpg",
+      img: "/kids.jpg",
       flip: false,
       theme: "theme-bur",
       tag: "For Ages 0\u201312",
@@ -20289,8 +20497,8 @@
       ],
     },
     {
-      img: "/roc-photo2.jpg",
-      pos: "center 20%",
+      img: "/youth.jpg",
+      pos: "center",
       flip: true,
       theme: "theme-grn",
       icon: "",
@@ -20305,7 +20513,7 @@
       ],
     },
     {
-      img: "/roc-photo3.jpg",
+      img: "/women.jpg",
       flip: false,
       theme: "theme-light",
       tag: "For Women of All Ages",
@@ -20319,8 +20527,8 @@
       ],
     },
     {
-      img: "/roc-photo4.jpg",
-      pos: "center 15%",
+      img: "/men.jpg",
+      pos: "center",
       flip: true,
       theme: "theme-dark",
       icon: "",
@@ -20335,8 +20543,8 @@
       ],
     },
     {
-      img: "/roc-photo2.jpg",
-      pos: "center 20%",
+      img: "/worship2.jpg",
+      pos: "center",
       flip: false,
       theme: "theme-cream",
       icon: "",
@@ -20362,7 +20570,7 @@
               /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", {
                 className: "page-hero-bg",
                 style: {
-                  backgroundImage: "url('/roc-photo4.jpg')",
+                  backgroundImage: "url('/save_next_gen.jpg')",
                   backgroundPosition: "center 20%",
                 },
               }),
@@ -20781,7 +20989,7 @@
             children: [
               /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", {
                 className: "page-hero-bg",
-                style: { backgroundImage: "url('/roc-photo3.jpg')" },
+                style: { backgroundImage: "url('/welcome.jpg')" },
               }),
               /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", {
                 className: "page-hero-overlay",
@@ -21053,7 +21261,7 @@
   var import_jsx_runtime8 = __toESM(require_jsx_runtime());
   var sermons = [
     {
-      img: "/roc-photo4.jpg",
+      img: "/last_message.jpg",
       series: "Preparing the Bride",
       title: "Walking in Holiness & Truth",
       pastor: "Ps. Liliose Kaligirwa Tayi",
@@ -21061,8 +21269,8 @@
       verse: 'Ephesians 5:27 \u2014 "holy and blameless"',
     },
     {
-      img: "/roc-photo2.jpg",
-      pos: "center 20%",
+      img: "/power_of_abiding.jpg",
+      pos: "center",
       series: "Abiding in the Word",
       title: "The Power of Abiding",
       pastor: "Ps. Liliose Kaligirwa Tayi",
@@ -21070,7 +21278,7 @@
       verse: 'John 8:31 \u2014 "If you abide in my word\u2026"',
     },
     {
-      img: "/roc-photo3.jpg",
+      img: "/worship.jpg",
       series: "Prayer & Power",
       title: "The House of Prayer",
       pastor: "Ps. Liliose Kaligirwa Tayi",
@@ -21078,7 +21286,7 @@
       verse: 'Isaiah 56:7 \u2014 "A house of prayer for all nations"',
     },
     {
-      img: "/roc-photo4.jpg",
+      img: "/last_message.jpg",
       pos: "center 20%",
       series: "Foundations of Faith",
       title: "Faith That Moves Mountains",
@@ -21087,8 +21295,8 @@
       verse: 'Matthew 17:20 \u2014 "Faith as a mustard seed"',
     },
     {
-      img: "/roc-photo2.jpg",
-      pos: "center 20%",
+      img: "/worship3.jpg",
+      pos: "center",
       series: "Preparing the Bride",
       title: "A Spotless Garment",
       pastor: "Ps. Liliose Kaligirwa Tayi",
@@ -21096,7 +21304,7 @@
       verse: 'Revelation 19:8 \u2014 "Fine linen, bright and clean"',
     },
     {
-      img: "/roc-photo3.jpg",
+      img: "/men.jpg",
       series: "Abiding in the Word",
       title: "Disciples Indeed",
       pastor: "Ps. Liliose Kaligirwa Tayi",
@@ -21130,7 +21338,7 @@
               /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
                 className: "page-hero-bg",
                 style: {
-                  backgroundImage: "url('/roc-photo4.jpg')",
+                  backgroundImage: "url('/last_message.jpg')",
                   backgroundPosition: "center 20%",
                 },
               }),
@@ -21164,7 +21372,7 @@
                 className: "feat-visual",
                 children: [
                   /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("img", {
-                    src: "/roc-photo4.jpg",
+                    src: "/last_message.jpg",
                     alt: "Latest Sermon",
                   }),
                   /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
@@ -21503,7 +21711,10 @@
             children: [
               /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {
                 className: "page-hero-bg",
-                style: { backgroundImage: "url('/roc-photo3.jpg')" },
+                style: {
+                  backgroundImage: "url('/women.jpg')",
+                  backgroundPosition: "center 30%",
+                },
               }),
               /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {
                 className: "page-hero-overlay",
@@ -21829,7 +22040,7 @@
             children: [
               /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
                 className: "page-hero-bg",
-                style: { backgroundImage: "url('/roc-photo1.jpg')" },
+                style: { backgroundImage: "url('/getToKnowUs.jpg')" },
               }),
               /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
                 className: "page-hero-overlay",
